@@ -2,8 +2,8 @@ require('dotenv').config();
 const axios = require('axios');
 const cheerio = require('cheerio');
 const TelegramBot = require('node-telegram-bot-api')
-const telegram_token = process.env.TELEGRAM_TOKEN 
-const genius_token = process.env.GENIUS_TOKEN 
+const telegram_token = process.env.TELEGRAM_TOKEN
+const genius_token = process.env.GENIUS_TOKEN
 
 
 const bot = new TelegramBot(telegram_token, { polling: true });
